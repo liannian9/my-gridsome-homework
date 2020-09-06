@@ -116,7 +116,7 @@
       </div>
     </section>
     <section class="foot"><div style="border-top: 1px solid rgb(225, 228, 232) !important; padding: 45px 0px;"><div class="el-row"><div class="el-col el-col-10"><div>
-				© 2018 GitHub-Laziji  
+				© 2018 GitHub-liannian9
 				<a href="https://github.com/liannian9" target="_blank">Profile</a>  &nbsp;&nbsp;&nbsp;
 				<a href="https://cn.vuejs.org/" target="_blank">Vue.js</a>  &nbsp;&nbsp;&nbsp;
 				<a href="http://element.eleme.io/" target="_blank">Element</a></div></div></div></div></section>
