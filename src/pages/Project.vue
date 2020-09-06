@@ -27,7 +27,7 @@
                         class="el-button el-button--text"
                         style="padding: 3px 0px;"
                       >
-                        <a :href="'https://gitee.com/liannian9/' + repo.node.title">
+                        <a :href="'https://gitee.com/liannian9/' + repo.node.title" @click.stop>
                           <i class="el-icon-back"></i>
                           <span>前往GitTee</span>
                         </a>
@@ -52,7 +52,7 @@
               >最近更新 {{repo.node.updated_at}}</div>
               <div
                 style="font-size: 1.1rem; line-height: 1.5; color: rgb(48, 49, 51); padding: 10px 0px 0px;"
-                v-html="mdToHtml(repo.node.content)"
+                v-html="mdToHtml(repo.node.subTitle)"
               ></div>
               <div style="font-size: 1.1rem; color: rgb(48, 49, 51); padding: 10px 0px 0px;">
                 <div class="el-row">
@@ -114,6 +114,7 @@ query($page: Int) {
         content
         created_at
         updated_at
+        subTitle
         start
         fork
         watch
